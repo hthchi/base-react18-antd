@@ -11,7 +11,7 @@
     "preview": "vite preview",
     "prepare": "husky",
     "format": "eslint src --fix",
-    "postinstall": "husky install && chmod +x .husky/*"
+    "postinstall": "npx husky install"
   },
   "lint-staged": {
     "*.{js,jsx,ts,tsx}": [
